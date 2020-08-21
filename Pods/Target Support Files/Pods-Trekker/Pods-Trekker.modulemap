@@ -1,0 +1,6 @@
+framework module Pods_Trekker {
+  umbrella header "Pods-Trekker-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Trekker_TrekkerUITests {
+  umbrella header "Pods-Trekker-TrekkerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
