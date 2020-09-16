@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,11 @@
 		290B674724EF19AA00A88F57 /* TrekkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B674624EF19AA00A88F57 /* TrekkerTests.swift */; };
 		290B675224EF19AA00A88F57 /* TrekkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B675124EF19AA00A88F57 /* TrekkerUITests.swift */; };
 		290B676024EF19D600A88F57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 290B675F24EF19D600A88F57 /* GoogleService-Info.plist */; };
+		29AE7E2C251162E400E93BBA /* baseline.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AE7E29251162E300E93BBA /* baseline.png */; };
+		29AE7E2D251162E400E93BBA /* test_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AE7E2A251162E300E93BBA /* test_a.png */; };
+		29AE7E2E251162E400E93BBA /* test_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AE7E2B251162E400E93BBA /* test_b.png */; };
+		29AE7E3125123B0D00E93BBA /* reviews_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AE7E2F25123B0D00E93BBA /* reviews_off.png */; };
+		29AE7E3225123B0D00E93BBA /* reviews_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AE7E3025123B0D00E93BBA /* reviews_on.png */; };
 		4A0EFD8E441B0E34BCEABDE6 /* Pods_Trekker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A8916202146C5AF4927653 /* Pods_Trekker.framework */; };
 		95CF1BE8294AB66E1B06C5BD /* Pods_Trekker_TrekkerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FA62C750F42D59AA0B1A8F /* Pods_Trekker_TrekkerUITests.framework */; };
 		C71A4F6FE3B289E3C5906AF2 /* Pods_TrekkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC10E69C377FE9D6D6B2492 /* Pods_TrekkerTests.framework */; };
@@ -54,6 +59,11 @@
 		290B675124EF19AA00A88F57 /* TrekkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekkerUITests.swift; sourceTree = "<group>"; };
 		290B675324EF19AA00A88F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		290B675F24EF19D600A88F57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29AE7E29251162E300E93BBA /* baseline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline.png; sourceTree = "<group>"; };
+		29AE7E2A251162E300E93BBA /* test_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_a.png; sourceTree = "<group>"; };
+		29AE7E2B251162E400E93BBA /* test_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_b.png; sourceTree = "<group>"; };
+		29AE7E2F25123B0D00E93BBA /* reviews_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reviews_off.png; sourceTree = "<group>"; };
+		29AE7E3025123B0D00E93BBA /* reviews_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reviews_on.png; sourceTree = "<group>"; };
 		50AB77AE757E3CD1B8E77341 /* Pods-Trekker-TrekkerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trekker-TrekkerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Trekker-TrekkerUITests/Pods-Trekker-TrekkerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		56992C64FC2A94107B867449 /* Pods-TrekkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrekkerTests.debug.xcconfig"; path = "Target Support Files/Pods-TrekkerTests/Pods-TrekkerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		99FA62C750F42D59AA0B1A8F /* Pods_Trekker_TrekkerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trekker_TrekkerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +128,11 @@
 		290B672E24EF19A700A88F57 /* Trekker */ = {
 			isa = PBXGroup;
 			children = (
+				29AE7E2F25123B0D00E93BBA /* reviews_off.png */,
+				29AE7E3025123B0D00E93BBA /* reviews_on.png */,
+				29AE7E29251162E300E93BBA /* baseline.png */,
+				29AE7E2A251162E300E93BBA /* test_a.png */,
+				29AE7E2B251162E400E93BBA /* test_b.png */,
 				290B675F24EF19D600A88F57 /* GoogleService-Info.plist */,
 				290B672F24EF19A700A88F57 /* AppDelegate.swift */,
 				290B673124EF19A700A88F57 /* SceneDelegate.swift */,
@@ -158,7 +173,6 @@
 				56992C64FC2A94107B867449 /* Pods-TrekkerTests.debug.xcconfig */,
 				A9CF8ED7FEA3C4D2D5F4E505 /* Pods-TrekkerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,9 +296,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				290B673C24EF19A900A88F57 /* LaunchScreen.storyboard in Resources */,
+				29AE7E3125123B0D00E93BBA /* reviews_off.png in Resources */,
+				29AE7E2E251162E400E93BBA /* test_b.png in Resources */,
+				29AE7E3225123B0D00E93BBA /* reviews_on.png in Resources */,
 				290B676024EF19D600A88F57 /* GoogleService-Info.plist in Resources */,
 				290B673924EF19A900A88F57 /* Assets.xcassets in Resources */,
+				29AE7E2D251162E400E93BBA /* test_a.png in Resources */,
 				290B673724EF19A700A88F57 /* Main.storyboard in Resources */,
+				29AE7E2C251162E400E93BBA /* baseline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
